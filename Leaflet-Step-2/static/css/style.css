@@ -12,12 +12,13 @@ html {
 .legend {
   line-height: 18px;
   color: #555;
-  background: #FFFFFFCC;
+  background: white;
   padding-top: 5px;
   padding-right: 6px;
   padding-bottom: 7px;
   padding-left: 8px;
-
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
 }
 
 .legend i {
