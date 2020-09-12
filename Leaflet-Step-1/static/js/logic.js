@@ -33,6 +33,7 @@ d3.json(queryUrl, function (data) {
   console.log("data--> ", data);
 
   // Create our map, giving it the streetmap and earthquakes layers to display on load
+  // Zoom at 5.
   var myMap = L.map("map", {
     center: [
       39.1911, -106.8175
